@@ -1,3 +1,6 @@
+ // This contract is an interface implementation of the DexNS contract: https://github.com/EthereumCommonwealth/DexNS/blob/master/DexNS_Frontend.sol
+ // DexNS contract are developed by dexaran820@gmail.com and could be found at the Ethereum Commonwealth repo: https://github.com/EthereumCommonwealth/DexNS
+ 
  contract DexNS_Abstract_Interface {
      function name(string)    constant returns (bytes32);
      function getName(string) constant returns (address _owner, address _associated, string _value, uint _end, bytes32 _sig);
